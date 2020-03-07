@@ -26,6 +26,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 configuration.server = "https://obscure-lake-94475.herokuapp.com/parse"
             })
         )
+        if PFUser.current() != nil{
+            let main = UIStoryboard(name: "Main", bundle: nil)
+            let feedNavigator = main.instantiateViewController(withIdentifier: "feedNavigatorController")
+            window?.rootViewController = feedNavigator
+        }
         return true
     }
 
