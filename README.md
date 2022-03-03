@@ -6,18 +6,16 @@ Time spent: **3** hours spent in total
 
 ## User Stories
 
-The following **required** functionality is completed:
-
-- [ ] User sees app icon in home screen and styled launch screen. (1pt)
-- [ ] User can sign up to create a new account. (1pt)
-- [ ] User can log in. (1pt)
-- [ ] User can take a photo, add a caption, and post it to the server. (3pt)
-- [ ] User can view the last 20 posts. (4pts)
+- [ ] User sees app icon in home screen and styled launch screen. 
+- [ ] User can sign up to create a new account. 
+- [ ] User can log in. 
+- [ ] User can take a photo, add a caption, and post it to the server.
+- [ ] User can view the last 20 posts. 
 
 The following **bonus** features are implemented:
 
-- [ ] User can pull to refresh. (1pt)
-- [ ] User can load past tweets infinitely. (2pts)
+- [ ] User can pull to refresh. 
+- [ ] User can load past tweets infinitely.
 
 ## Video Walkthrough
 
@@ -31,11 +29,7 @@ I think it takes a while for the pictures to load, that is why they look distort
 
 This is an Instagram clone with a custom Parse backend that allows a user to post photos, view a global photos feed, and add comments!
 
-Time spent: **2** hours spent in total
-
 ## User Stories
-
-The following **required** functionality is completed:
 
 - [ ] User stays logged in across restarts. (1pt)
 - [ ] User can log out. (1pt)
